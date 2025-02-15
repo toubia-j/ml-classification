@@ -1,0 +1,35 @@
+<<<<<<< HEAD
+version: '3.8'
+
+networks:
+  serving_prod_net:
+    external: true
+
+services:
+  webapp:
+    container_name: webapp
+    build:
+      context: .  # Chemin du contexte de construction (répertoire actuel)
+      dockerfile: Dockerfile  # Le nom du fichier Dockerfile
+    ports:
+      - "8081:8081"  # Le port sur lequel Streamlit sera accessible
+    networks:
+      - serving_prod_net
+=======
+version: '3.8'
+
+networks:
+  serving_prod_net:
+    external: true
+
+services:
+  webapp:
+    container_name: webapp
+    build:
+      context: .  # Chemin du contexte de construction (répertoire actuel)
+      dockerfile: Dockerfile  # Le nom du fichier Dockerfile
+    ports:
+      - "8081:8081"  # Le port sur lequel Streamlit sera accessible
+    networks:
+      - serving_prod_net
+>>>>>>> 2f43fb2 (commit)

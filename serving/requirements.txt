@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+fastapi
+uvicorn
+scikit-learn
+numpy
+pandas
+Pillow
+python-multipart
+matplotlib
+flask
+xgboost
+=======
+fastapi
+uvicorn
+scikit-learn
+numpy
+pandas
+Pillow
+python-multipart
+matplotlib
+flask
+xgboost
+>>>>>>> 2f43fb2 (commit)
